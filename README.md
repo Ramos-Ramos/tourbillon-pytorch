@@ -1,10 +1,10 @@
 # Tourbillon-PyTorch ⌚
 
-Unofficial implementation of [Tourbillon: a Physically Plausible Neural Architecture](https://arxiv.org/abs/2107.06424).
+Unofficial PyTorch implementation of [Tourbillon: a Physically Plausible Neural Architecture](https://arxiv.org/abs/2107.06424).
 
 ## Disclaimer: not learning?
 
-The forward and backward passes don't throw any errors, but when we train for reconstruction we get gray boxes for MNIST and blue ones for CIFAR-10. Also, when we train for MNIST classification, we get only barely over 10% test accuracy. Perhaps we're implementing the recirculation wrong? If anyone has any ideas on what went wrong, feel free to let us know!
+The forward and backward passes don't throw any errors, but when we train for reconstruction we get gray boxes for MNIST and blue ones for CIFAR-10. Also, when we train for MNIST/CIFAF-10 classification, we get only barely over 10% test accuracy. Perhaps we're implementing the recirculation wrong? If anyone has any ideas on what went wrong, feel free to let us know!
 
 ## Installation
 
